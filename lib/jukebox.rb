@@ -39,6 +39,11 @@ end
 #     end 
 # end 
 
+def play(songs)
+  puts "Please enter a song name or number:"
+  input = gets.strip 
+end 
+
 
 # def list(playlist)
 #   playlist.map {|song, index| "#{index + 1}. #{song}"}
