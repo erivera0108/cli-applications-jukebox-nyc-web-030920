@@ -54,6 +54,8 @@ def run(songs)
     puts "Please enter a command:"
     input = gets.strip
     case input
-    
+    when 
+    end 
+  
   end 
 end 
