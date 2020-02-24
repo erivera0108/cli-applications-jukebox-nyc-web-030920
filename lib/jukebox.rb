@@ -39,15 +39,18 @@ def play(songs)
   end 
 end 
 
-
-
 def list(songs)
   songs.each_with_index do |song, index| puts "#{index + 1}. #{song}"
   # binding.pry
   end 
 end
 
-
 def exit_jukebox
   puts "Goodbye"
+end 
+
+def run 
+  puts "Please enter a command:"
+  input = gets.strip
+  
 end 
