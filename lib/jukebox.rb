@@ -36,9 +36,8 @@ def play(songs)
         puts "playing #{songs.find {|song| song == input}}"
       else 
         puts "Invalid input, please try again"
-      end 
-  end 
-end
+    end 
+end 
 
 
 # def list(playlist)
