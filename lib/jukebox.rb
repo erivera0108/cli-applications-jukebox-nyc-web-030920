@@ -53,13 +53,14 @@ def run(songs)
   if true 
     puts "Please enter a command:"
     input = gets.strip
-    case input
-    when "help"
-      help
-    when "play"
-      play
+      case input
+      when "help"
+        help
+      when "play"
+        play(songs)
       when 
-    end 
+        
+      end 
   
   end 
 end 
