@@ -42,6 +42,6 @@ end
 
 
 def list(playlist)
-  playlist.map {|song, index| "#{index + 1}. #{song}"}
+  playlist {|song, index| "#{index + 1}. #{song}"}
   binding.pry
 end 
