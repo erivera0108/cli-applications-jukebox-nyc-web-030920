@@ -41,6 +41,6 @@ end
 
 
 
-# def list(playlist)
-#   playlist.map {|song, index| "#{index + 1}. #{song}"}
-# end 
+def list(playlist)
+  playlist.map {|song, index| "#{index + 1}. #{song}"}
+end 
