@@ -46,6 +46,3 @@ def list(playlist)
   # binding.pry
 end 
 
-def exit_jukebox
-  puts "Goodbye"
-end 
