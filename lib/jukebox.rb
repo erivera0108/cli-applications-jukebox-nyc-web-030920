@@ -45,4 +45,8 @@ def list(playlist)
   playlist.each_with_index do |song, index| puts "#{index + 1}. #{song}"
   # binding.pry
 end 
+
+def exit_jukebox
+  puts "Goodbye"
+end 
 end 
