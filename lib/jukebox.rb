@@ -50,8 +50,8 @@ def exit_jukebox
 end 
 
 def run(songs) 
+  if true 
   puts "Please enter a command:"
   input = gets.strip
-  help
-  exit_jukebox
+end 
 end 
