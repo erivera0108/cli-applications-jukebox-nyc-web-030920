@@ -56,7 +56,8 @@ def run(songs)
     case input
     when "help"
       help
-      break
+    when "play"
+      play
       when 
     end 
   
