@@ -1,4 +1,4 @@
-
+require "pry"
 # def say_hello(name)
 #   "Hi #{name}!"
 # end 
@@ -43,4 +43,5 @@ end
 
 def list(playlist)
   playlist.map {|song, index| "#{index + 1}. #{song}"}
+  binding.pry
 end 
