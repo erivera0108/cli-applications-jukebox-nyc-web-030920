@@ -42,6 +42,6 @@ end
 
 
 def list(playlist)
-  playlist.each_with_index {|song, index| "#{index + 1}. #{song}"}
+  playlist.each_with_index {|song, index| puts "#{index + 1}. #{song}"}
   binding.pry
 end 
