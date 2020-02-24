@@ -27,31 +27,17 @@ def help
   puts "- exit : exits this program"
 end 
 
-# def play(songs)
-#   puts "Please enter a song name or number:"
-#   input = gets.strip 
-#   if input.to_i >= 1 && input.to_i <= songs.length 
-#       puts "Playing #{songs[input.to_i - 1]}"
-#     elsif songs.include?(input)
-#       puts "playing #{songs.find {|song| song == input}}"
-#     else 
-#       puts "Invalid input, please try again"
-#   end 
-# end 
-
 def play(songs)
   puts "Please enter a song name or number:"
-  input = gets.strip
-    songs.each do |song|
-      if input.to_i >= 1 && input.to_i <= songs.length 
-        puts "Playing #{songs[input.to_i - 1]}"
-      elsif song == input
-         puts"Playing #{song}" 
-      else 
-        puts "Invalid input, please try again"
-      end 
-    end
+  input = gets.strip 
+  if input.to_i >= 1 && input.to_i <= songs.length 
+      puts "Playing #{songs[input.to_i - 1]}"
+    elsif songs.include?(input)
+      puts "playing #{songs.find {|song| song == input}}"
+    else 
+      puts "Invalid input, please try again"
   end 
+end 
 
 
 
